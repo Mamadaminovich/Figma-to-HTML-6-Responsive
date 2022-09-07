@@ -19,6 +19,7 @@ $(function () {
       "demo"
     ).innerHTML = `<img src="images/tab-img.png">`;
   });
+
   $(".comment__inner").slick({
     slidesToShow: 4,
     slidesToScroll: 1,

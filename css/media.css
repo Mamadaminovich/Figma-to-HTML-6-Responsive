@@ -283,7 +283,8 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 85vh;
+    height: 90vh;
+    width: auto;
     display: block;
     background-color: #8d448bd3;
     display: flex;
@@ -370,7 +371,7 @@
   }
   .menu__list {
     gap: 55px;
-    height: 70vh;
+    height: 76vh;
   }
   .feature {
     padding: 60px 0 0 0;
@@ -512,7 +513,7 @@
     margin: -4px 8px 0 auto;
   }
   .menu__list {
-    height: 60vh;
+    height: 66vh;
     gap: 50px;
   }
   .menu__list-link {
@@ -716,7 +717,7 @@
     margin-bottom: 28px;
   }
   .menu__list {
-    height: 55vh;
+    height: 60vh;
     gap: 40px;
   }
   .menu__list-link {
