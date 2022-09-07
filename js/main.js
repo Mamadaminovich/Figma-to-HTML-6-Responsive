@@ -20,6 +20,30 @@ $(function () {
     ).innerHTML = `<img src="images/tab-img.png">`;
   });
 
+  $(".tab__link-1").on("click", function () {
+    document.getElementById("price__box-1").style.border = `1.5px solid #3FDBB1`;
+    document.getElementById("price__box-2").style.border = `1.5px solid #e0e2e4`;
+    document.getElementById("old__tab-title-1").style.display = `none`;
+    document.getElementById("tab__title-1").style.display = `block`;
+    document.getElementById("old__tab-title-2").style.display = `block`;
+    document.getElementById("tab__title-2").style.display = `none`;
+    document.getElementById("old__tab-price-1").style.display = `none`;
+    document.getElementById("tab__price-1").style.display = `block`;
+    document.getElementById("old__tab-price-2").style.display = `block`;
+    document.getElementById("tab__price-2").style.display = `none`;
+  });
+  $(".tab__link-2").on("click", function () {
+    document.getElementById("price__box-2").style.border = `1.5px solid #3FDBB1`;
+    document.getElementById("price__box-1").style.border = `1.5px solid #e0e2e4`;
+    document.getElementById("old__tab-title-2").style.display = `none`;
+    document.getElementById("tab__title-2").style.display = `block`;
+    document.getElementById("old__tab-title-1").style.display = `block`;
+    document.getElementById("tab__title-1").style.display = `none`;
+    document.getElementById("old__tab-price-2").style.display = `none`;
+    document.getElementById("tab__price-2").style.display = `block`;
+    document.getElementById("old__tab-price-1").style.display = `block`;
+    document.getElementById("tab__price-1").style.display = `none`;
+  });
   $(".comment__inner").slick({
     slidesToShow: 4,
     slidesToScroll: 1,
